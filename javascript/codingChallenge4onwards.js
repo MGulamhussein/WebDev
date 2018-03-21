@@ -28,3 +28,20 @@ function fizzBuzz() {
     }
     console.log(numberList)
 }
+
+function dividingLoop() {
+    var random = Math.round((Math.random() * 1000) + 1);
+    random *= 100;
+    while (random != 1) {
+        console.log(random);
+
+        if (random % 3 === 0) {
+            random /= 3;
+        } else if (random % 3 === 1) {
+            random--
+        } else {
+            random++
+        }
+    }
+    console.log(random);
+}
