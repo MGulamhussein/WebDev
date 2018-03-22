@@ -26,7 +26,7 @@ function fizzBuzz() {
             numberList[i] = "Buzz";
         }
     }
-    console.log(numberList)
+    console.log(numberList);
 }
 
 function dividingLoop() {
@@ -45,4 +45,3 @@ function dividingLoop() {
     }
     console.log(random);
 }
-
